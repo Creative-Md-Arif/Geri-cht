@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='menubar py-5  bg-[#0c0b08]'>
-        <div className='container flex items-center justify-between'>
+    <div className='menubar bg-[#0c0b08] py-6'>
+        <div className='flex items-center justify-between px-20'>
             <div className='main-logo'>
                  <h1 className='text-white font-primary text-5xl font-bold uppercase'>
                     <Link to="/home">Gerícht</Link>
@@ -37,8 +38,8 @@ const Navbar = () => {
                   </ul>
                 </div>
                 <div className='text-white font-opensans text-xs font-semibold'>
-                 <Link to="/booktable">Book Table</Link>
-                </div>
+                <Link to="#" className="text-black hover:before:bg-redborder-red-500 relative py-[10px]  overflow-hidden border border-red-500 bg-white px-6 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-red-500 hover:before:left-0 hover:before:w-full"><span className="relative z-10">Book Table</span></Link>
+               </div>
             </div>
         </div>
     </div>
