@@ -8,13 +8,13 @@ const Navbar = () => {
         <div className='flex items-center justify-between px-20'>
             <div className='main-logo'>
                  <h1 className='text-white font-primary text-5xl font-bold uppercase'>
-                    <Link to="/home">Gerícht</Link>
+                    <Link to="/">Gerícht</Link>
                 </h1>
             </div>
             <div className='menu-list'>
               <ul className='flex items-center gap-7 text-white font-opensans text-xs font-normal'>
                 <li>
-                    <Link to="/home" >Home</Link>
+                    <Link to="/" >Home</Link>
                 </li>
                 <li>
                     <Link to="/pages" >Pages</Link>

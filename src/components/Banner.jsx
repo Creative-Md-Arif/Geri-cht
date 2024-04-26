@@ -61,7 +61,7 @@ const Banner = () => {
          
             data.map((d) => (
         
-               <div className=''>
+               <div key={d.id} className=''>
                <div className='flex items-center justify-between'>
                <div className='text-white py-[127px]'>
                 <h4 className='font-primary text-white font-bold text-xl'>

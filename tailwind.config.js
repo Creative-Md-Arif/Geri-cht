@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        BG_image: "url('/public/BG.png')",
+      },
+      colors: {
+        black_rgba: 'rgba(0, 0, 0, 0.54)',
+      },
+    },
     container: {
       center: true,
     },
