@@ -2,12 +2,14 @@
 import React from 'react';
 import Banner from '../components/Banner';
 import Banner_two from '../components/Banner_two';
+import MenuPalatte from '../components/MenuPalatte';
 
 const Home = () => {
     return (
         <div>
           <Banner/>
           <Banner_two/>
+          <MenuPalatte/>
         </div>
     );
 };

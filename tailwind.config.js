@@ -11,6 +11,8 @@ export default {
       },
       colors: {
         black_rgba: 'rgba(0, 0, 0, 0.54)',
+        primary: "#DCCA87",
+        secondary: "#AAAAAA"
       },
     },
     container: {
