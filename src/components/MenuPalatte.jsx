@@ -3,7 +3,7 @@ import React from 'react'
 
 const MenuPalatte = () => {
   return (
-    <section className='menuPalatte bg-[#0c0b08] py-[127px] '>
+    <section id='menuPalatte' className='menuPalatte bg-[#0c0b08] py-[127px]' >
        <div className="container">
          <div className="headText text-center">
             <h4 className=' font-secondary font-bold text-xl text-white leading-[130%] pb-2'>Menu that fits you palatte</h4>
@@ -12,7 +12,7 @@ const MenuPalatte = () => {
             />
             <h1 className=' font-secondary font-semibold text-6xl text-primary pb-16 pt-2'>Today’s Special</h1>
          </div>
-         <div className='menuPalatteBox flex '>
+         <div className='menuPalatteBox flex items-center '>
             <div className="PalatteBox1 w-1/3">
                 <h2 className=' font-primary font-semibold text-5xl text-white text-center pb-12'>Wine & Beer</h2>
                 <ul className='text-white flex flex-col gap-16 '>

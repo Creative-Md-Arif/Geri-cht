@@ -8,9 +8,10 @@ export default {
     extend: {
       backgroundImage: {
         BG_image: "url('/public/BG.png')",
+        BG_Shadow: "url('/public/BG-Shadow.png')",
       },
       colors: {
-        black_rgba: 'rgba(0, 0, 0, 0.54)',
+        black_rgba: 'rgba(0, 0, 0, 0.4)',
         primary: "#DCCA87",
         secondary: "#AAAAAA"
       },

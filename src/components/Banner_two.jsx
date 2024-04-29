@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Banner_two = () => {
   return (
-    <section className=' bg-BG_image py-[200px] relative z-10 '>
+    <section id='bannerTwo' className=' bg-BG_image py-[200px] relative z-100 '>
         <div className=' absolute overly w-full h-full top-0 left-0 bg-black_rgba -z-10'></div>
         <div className='container'>
           <div className=' absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 -z-10'>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='menubar bg-[#0c0b08] py-6'>
+    <div className='menubar bg-[#0c0b08] py-6 fixed w-full z-10'>
         <div className='flex items-center justify-between px-20'>
             <div className='main-logo'>
                  <h1 className='text-white font-primary text-5xl font-bold uppercase'>
@@ -20,7 +20,7 @@ const Navbar = () => {
                     <Link to="/pages" >Pages</Link>
                 </li>
                 <li>
-                    <Link to="/contact" >Contact Us</Link>
+                    <Link to="#Contact" >Contact Us</Link>
                 </li>
                 <li>
                     <Link to="/blog">Blog</Link>
