@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const MenuPalatte = () => {
   return (
-    <section id='menuPalatte' className='menuPalatte bg-[#0c0b08] py-[127px]' >
+    <section id='menuPalatte' className='menuPalatte bg-[#0c0b08] pt-[127px]' >
        <div className="container">
          <div className="headText text-center">
             <h4 className=' font-secondary font-bold text-xl text-white leading-[130%] pb-2'>Menu that fits you palatte</h4>
@@ -115,6 +116,15 @@ const MenuPalatte = () => {
                     
                 </ul>
             </div>
+         </div>
+         <div className='menuPalatteBtn py-12 text-center'>
+         <div className='pt-5'>
+                <Link to="#" className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-secondary font-bold tracking-tighter text-black bg-[#DCCA87] rounded-lg group">
+                <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-gray-800  rounded-full  group-hover:w-56 group-hover:h-56"></span>
+                <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent"></span>
+                <span className="relative group-hover:text-white ">View More</span>
+                </Link>
+                </div>  
          </div>
        </div>
     </section>

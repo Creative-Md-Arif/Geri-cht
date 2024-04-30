@@ -2,6 +2,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+
 
 
 const Footer = () => {
@@ -24,15 +28,15 @@ const Footer = () => {
             <img src="/public/Spoon-img.png" alt=""
             className=' mx-auto w-10'
             />
-            <ul>
+            <ul className='flex justify-center gap-4 pt-5 text-xl text-[#F5EFDB]'>
                 <li>
-                    <Link to="#" ></Link>
+                    <Link to="#" ><FaFacebook /></Link>
                 </li>
                 <li>
-                    <Link to="#" ></Link>
+                    <Link to="#"><FaXTwitter /></Link>
                 </li>
                 <li>
-                    <Link to="#" ></Link>
+                    <Link to="#" ><FaInstagram /></Link>
                 </li>
             </ul>
             <div className='text-center'>

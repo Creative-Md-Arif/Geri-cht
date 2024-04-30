@@ -54,7 +54,7 @@ const Banner = () => {
     slidesToScroll: 1
   };
   return (
-    <section id='banner' className='p-[52px_0_148px_0] bg-[#0c0b08]'>
+    <section id='banner' className='p-[148px_0_148px_0] bg-[#0c0b08]'>
         <div className='container'>
         <Slider {...settings}>
          {

@@ -15,8 +15,8 @@ const NewsLetter = () => {
            <p className=' w-auto font-opensans font-normal text-secondary leading-[175%]
             pb-8'>And never miss latest Updates!</p>
            <div className='flex justify-center gap-5'>
-            <input type="email" placeholder='Email Address' className='py-2 pl-4 pr-32 outline-none bg-transparent bg-black border-[1px] border-[#DCCA87] text-white placeholder:text-white' />
-            <button className=' font-secondary font-bold text-[16px] text-[#0C0C0C] py-1 px-5 bg-primary'>Subscribe</button>
+            <input type="email" placeholder='Email Address' className='py-2 pl-4 pr-32 outline-none bg-transparent bg-black border-[1px] border-[#DCCA87] border-opacity-25 text-white placeholder:text-white' />
+            <button className=' font-secondary font-bold text-[16px] text-[#0C0C0C] py-1 px-5 bg-primary '>Subscribe</button>
            </div>
           </div>
         </div>
