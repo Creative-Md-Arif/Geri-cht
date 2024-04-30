@@ -6,11 +6,14 @@ import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
-
+const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  
 
 const Footer = () => {
   return (
-    <footer className=' bg-BG_image py-[250px] '>
+    <footer className=' bg-BG_image pt-[250px] pb-[100px] '>
         <div className='container flex justify-between'>
            <div className='pt-10'>
             <h3 className='text-center font-secondary font-normal text-[#F5EFDB] text-[32px] pb-6 
@@ -53,6 +56,10 @@ const Footer = () => {
                 <li>07:00am -11:00 pm</li>
             </ul>
            </div>
+        </div>
+        <div className=' relative text-end pr-5 pt-11 pb-1 '>
+          <button onClick={scrollTop} className='font-secondary text-primary text-[18px] after:content-[""] after:absolute after:w-[2px]
+            after:h-[25px] after:top-[100%] after:right-[36px] after:bg-[#DCCA87] after:opacity-30 '>Scroll</button>
         </div>
 
     </footer>

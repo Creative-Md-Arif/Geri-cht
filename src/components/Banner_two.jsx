@@ -5,20 +5,21 @@ import { Link } from 'react-router-dom'
 
 const Banner_two = () => {
   return (
-    <section id='bannerTwo' className=' bg-BG_image py-[200px] relative z-100 '>
-        <div className=' absolute overly w-full h-full top-0 left-0 bg-black_rgba -z-10'></div>
-        <div className='container'>
-          <div className=' absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 -z-10'>
+    <section id='bannerTwo' className=' py-[200px] relative z-100'>
+        <div className=' absolute overly  bg-BG_image w-full h-full top-0 left-0 bg-black_rgba -z-10'>
+        <div className=''>
             <img src="/public/G.png" alt=""
-             className='w-[391px]'
+             className='w-[391px] absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2'
             />
           </div>
-          <div className='flex items-center justify-evenly w-full z-10'>
+        </div>
+        <div className='container'>
+          <div className='flex items-center justify-evenly w-full'>
             <div className='text-end relative'>
                 <h1 className='pb-2 text-6xl font-secondary font-semibold text-[#DCCA87]'>About Us</h1>
-                 <div className=' absolute right-0 '>
+                 <div className=''>
                  <img src="/public/Spoon-img.png" alt="spoon-png" 
-                 className=' h-3'
+                 className='ml-auto w-10'
                 />
                  </div>
                 <p className='text-[#D9D9D9] font-opensans font-normal text-xs leading-[175%] w-[450px] pt-11'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing  ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
@@ -32,13 +33,13 @@ const Banner_two = () => {
             </div>
             <div>
                 <img src="/public/savernake-knives-f4jl2ezowuM-unsplash 2.png" alt="" 
-                className='h-[600px]  '
+                className='h-[600px]'
                 />
              </div>
              <div className=''>      
                 <h1 className='pb-2 text-6xl font-secondary font-semibold text-[#DCCA87]'>Our History</h1>
                 <img src="/public/Spoon-img.png" alt="spoon-png" 
-                 className=' h-3'
+                 className='w-10'
                 />
                 <p className='text-[#D9D9D9] font-opensans font-normal text-xs leading-[175%] w-[450px] pt-8 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing  ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
                 <div className='pt-5'>

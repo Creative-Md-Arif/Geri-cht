@@ -45,6 +45,11 @@ const data = [
 ];
 
 
+const scrollDown = () => {
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+};
+
+
 const Banner = () => {
   const settings = {
     dots: true,
@@ -95,6 +100,10 @@ const Banner = () => {
             ))
           }  
              </Slider>     
+        </div>
+        <div className=' relative text-end pr-5 pt-11 pb-1 '>
+          <button onClick={scrollDown} className='font-secondary text-primary text-[18px] after:content-[""] after:absolute after:w-[2px]
+            after:h-[25px] after:top-[30%] after:right-[38px] after:bg-[#DCCA87] after:opacity-30 '>Scroll</button>
         </div>
     </section>
   );

@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
+
 const NewsLetter = () => {
   return (
     <section className=' relative bg-[#0c0b08] py-[140px]'>
