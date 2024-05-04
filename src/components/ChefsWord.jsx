@@ -4,7 +4,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const ChefsWord = () => {
   return (
-    <section id='chefsWord' className=' bg-BG_image py-[128px]'>
+    <section id='chefsWord' className=' bg-BG_image py-[128px] xl:px-[80px]'>
         <div className='container'>
             <div className='flex justify-between'>
             <div className=''>

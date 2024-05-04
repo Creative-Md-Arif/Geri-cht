@@ -1,18 +1,19 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import { FaArrowAltCircleLeft } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 
 const Login = () => {
   return (
-    <section className=" bg-[#0c0b08] h-[100vh]">
+    <section className=" bg-[#0c0b08] h-[100vh] px-4">
         <div className="container flex flex-col justify-center items-center h-[100%]">
            <div className="registration border border-white rounded-xl bg-white pt-4 pb-6 px-7 ">
            <div className="text-center pb-8">
              <h3 className=" text-blue-500 font-primary font-bold text-[24px] pb-4">Login</h3>
              <p  className=" font-primary font-normal text-black text-[16px]">Free register and you can enjoy it</p>
              </div>
-              <div className="flex flex-col w-[400px] gap-5">
+              <div className="flex flex-col w-auto gap-5 xl:w-[380px]">
                 <input type="text" placeholder="Full Name"
                  className="py-3 pl-2   border border-[#DDDFE2] rounded-md" />
                 <input type="email" placeholder="E-mail" 
@@ -24,6 +25,9 @@ const Login = () => {
                  <Link className=" font-primary font-normal text-black" to="/registration">Create new account</Link>
                 </p>
             </div>
+             <div className='text-center'>
+              <Link to="/" className=' flex items-center justify-center gap-2'><FaArrowAltCircleLeft className='text-xs mt-1'/> Back to home</Link>
+             </div>
             <div>
             </div>
            </div>

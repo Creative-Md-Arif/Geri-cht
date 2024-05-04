@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const MenuPalatte = () => {
   return (
-    <section id='menuPalatte' className='menuPalatte bg-[#0c0b08] pt-[127px]' >
+    <section id='menuPalatte' className='menuPalatte bg-[#0c0b08] pt-[127px] xl:px-[80px]' >
        <div className="container">
          <div className="headText text-center">
             <h4 className=' font-secondary font-bold text-xl text-white leading-[130%] pb-2'>Menu that fits you palatte</h4>
