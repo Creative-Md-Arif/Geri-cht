@@ -13,10 +13,10 @@ const scrollTop = () => {
 
 const Footer = () => {
   return (
-    <footer className=' bg-BG_image pt-[250px] pb-[100px] '>
-        <div className='container flex justify-between'>
+    <footer className=' bg-BG_image pt-[250px] pb-[100px] px-5 '>
+        <div className='container flex flex-col lg:flex-row lg:justify-between '>
            <div className='pt-10'>
-            <h3 className='text-center font-secondary font-normal text-[#F5EFDB] text-[32px] pb-6 
+            <h3 className='text-center font-secondary font-normal text-[#F5EFDB] text-2xl lg:text-[32px] pb-6 
             '>Contact Us</h3>
             <p className='font-opensans font-normal text-[16px] text-secondary text-center pb-4'>9 W 53rd St, New York, NY 10019, USA</p>
             <ul className='font-opensans font-normal text-[16px] text-secondary text-center pb-4'>
@@ -25,9 +25,9 @@ const Footer = () => {
             </ul>
            </div>
            <div>
-            <h1 className='font-secondary font-semibold text-primary text-[64px] text-center uppercase pb-8
+            <h1 className='font-secondary font-semibold text-primary text-4xl xl:text-[64px] text-center uppercase pb-8
             '>Gerícht</h1>
-            <p className='font-opensans font-normal text-[16px] text-secondary text-center pb-4 w-[450px]'>"The best way to find yourself is to lose yourself in the service of others.”</p>
+            <p className='font-opensans font-normal text-[16px] text-secondary text-center pb-4 lg:w-[320px] '>"The best way to find yourself is to lose yourself in the service of others.”</p>
             <img src="/public/Spoon-img.png" alt=""
             className=' mx-auto w-10'
             />

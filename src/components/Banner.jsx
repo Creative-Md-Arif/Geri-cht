@@ -59,8 +59,8 @@ const Banner = () => {
     slidesToScroll: 1
   };
   return (
-    <section id='banner' className='px-5 pt-[80px] md:px-6  xl:p-[148px_0_148px_0] xl:px-[80px] bg-[#0c0b08]'>
-        <div className='container '>
+    <section id='banner' className='px-5 pt-[80px] md:px-6  xl:p-[148px_0_148px_0] bg-[#0c0b08]'>
+        <div className='container px-5'>
         <Slider {...settings}>
          {
          
@@ -68,17 +68,17 @@ const Banner = () => {
         
                <div key={d} className=''>
                <div className='flex flex-col md:flex-row items-center  justify-between'>
-               <div className='text-white w-full py-[80px] xl:py-[127px]  md:w-1/2'>
+               <div className='text-white text-center  md:text-start w-full py-[80px] xl:py-[127px]  md:w-1/2'>
                 <h4 className='font-primary text-white font-bold text-xl'>
                  {d.name1}
                 </h4>
-                <img src={d.img} alt="" className='w-10'/>
-                <h1 className='text-[42px] w-[220px] md:w-[280px] md:text-[56px] xl:text-[90px] font-secondary font-bold xl:w-[453px] text-[#DCCA87] pb-8'>
+                <img src={d.img} alt="" className='w-10 flex items-start mx-auto md:absolute'/>
+                <h1 className='text-[42px] md:text-[56px] xl:text-[90px] font-secondary font-bold lg:w-[320px] xl:w-[453px] text-[#DCCA87] pb-8'>
                   {
                     d.heading
                   }
                 </h1>
-                <p className='text-xs w-[280px] md:w-[350px]  xl:text-[16px] font-opensans font-normal xl:w-[453px] text-[#AAAAAA] leading-[175%]'>
+                <p className='text-xs w-auto  md:w-[350px]  xl:text-[16px] font-opensans font-normal xl:w-[453px] text-[#AAAAAA] leading-[175%]'>
                   {
                     d.ptag
                   }
@@ -92,7 +92,7 @@ const Banner = () => {
                 </div>
                 </div>
                 <div className='md:w-1/2'>
-                  <img className='w-[100%] xl:w-[620px]' src={d.heroimg} alt="" />
+                  <img className='w-[80%] mx-auto md:w-[100%] xl:w-[620px]' src={d.heroimg} alt="" />
                 </div>
                </div>
                </div>

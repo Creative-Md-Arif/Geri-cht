@@ -54,7 +54,7 @@ const Navbar = () => {
                     <Link to="/pages" >Pages</Link>
                 </li>
                 <li className=' hover:bg-orange-500 transition-all duration-300'>
-                    <Link to="#Contact" >Contact Us</Link>
+                    <Link to="contact" >Contact Us</Link>
                 </li>
                 <li className=' hover:bg-orange-500 transition-all duration-300'>
                     <Link to="/blog">Blog</Link>
